@@ -1,4 +1,4 @@
-package main.java.org.example;
+package main.java.org.example.array_exercise;
 
 import java.util.Arrays;
 

@@ -1,0 +1,23 @@
+Assignment: Creating Classes for Bank Account Management
+
+Assignment Description:
+
+Your task is to create several classes for managing a bank account. You should have the following classes:
+
+BankAccount - this class represents a bank account. It should have the following attributes and methods:
+
+accountNumber (account number)
+balance (account balance)
+owner (account owner)
+The deposit(double amount) method, which allows depositing money into the account.
+The withdraw(double amount) method, which allows withdrawing money from the account. Ensure that the balance does not go negative.
+The getBalance() method, which returns the current account balance.
+Bank - this class represents a bank and manages the accounts. It should have the following attributes and methods:
+
+accounts (a list of bank accounts)
+The addAccount(BankAccount account) method, which adds a new bank account to the list of the bank's accounts.
+The getAccount(int accountNumber) method, which returns a bank account based on its account number.
+The transfer(int fromAccountNumber, int toAccountNumber, double amount) method, which allows transferring money from one account to another.
+Write these classes and test them by creating several bank accounts, performing deposit and withdrawal operations, and transferring funds between accounts.
+
+Ensure that your classes adhere to the principles of object-oriented programming, such as encapsulation, inheritance, and polymorphism.
