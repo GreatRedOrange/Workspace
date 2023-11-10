@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed760fec-dd7b-4963-9508-dec974d1ea91" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DeleteFromArr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/BankAccount.java" beforeDir="false" />
+    <list default="true" id="ed760fec-dd7b-4963-9508-dec974d1ea91" name="Changes" comment="first commit oop ex 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/ex_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_1/read.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +63,11 @@
     &quot;last_opened_file_path&quot;: &quot;W:/JavaWorkspace/Workspace&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\JavaWorkspace\Workspace\src\main\java\org\example\oop_exercise" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.org.example.oop_exercise.ex_1.Main" />
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699555797544</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit oop ex 1">
+      <created>1699618712844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699618712844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +184,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="first commit oop ex 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit oop ex 1" />
   </component>
 </project>

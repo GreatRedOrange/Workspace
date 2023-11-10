@@ -1,0 +1,6 @@
+Create a Shape class that will be an abstract base class for all geometric shapes.
+It must have a calculateArea() method,
+which will be abstract and must be implemented in subclasses.
+
+Create subclasses for different geometric shapes, such as Circle, Rectangle, and Triangle.
+Each of these subclasses must implement the calculateArea() method.
