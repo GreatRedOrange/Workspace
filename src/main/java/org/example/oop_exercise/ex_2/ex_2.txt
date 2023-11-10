@@ -10,3 +10,16 @@ isbn (уникальный идентификатор)
 
 В тестовом классе создайте экземпляр библиотеки, добавьте несколько книг,
 удалите одну книгу и выведите информацию о всех книгах в библиотеке.
+
+Create a Book class representing a book. Each book must have the following attributes:
+
+title (title of the book)
+author
+publicationYear
+isbn (unique identifier)
+
+Create a Library class representing a library. The library should have a list of books and
+methods to add a new book, remove a book by ISBN, and display information about all books in the library.
+
+In the test class, create an instance of the library, add a few books,
+delete one book, and display information about all books in the library.
