@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed760fec-dd7b-4963-9508-dec974d1ea91" name="Changes" comment="second commit oop ex 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/CppDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/CppDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/DeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/JavaDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/patterns_exercise/factory/example/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed760fec-dd7b-4963-9508-dec974d1ea91" name="Changes" comment="second commit - add pattern exercise one" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +60,7 @@
     "DefaultPlantUmlFileTemplate": "UML Sequence",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "W:/JavaWorkspace/Workspace",
+    "last_opened_file_path": "W:/JavaWorkspace/SuperTicTacToe",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -78,20 +69,7 @@
       <recent name="W:\JavaWorkspace\Workspace\src\main\java\org\example\oop_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.org.example.array_exercise.MyArrayList" />
-      <module name="Workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.org.example.array_exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TransportCompany">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.org.example.patterns_exercise.factory.example.Program" />
       <module name="Workspace" />
@@ -111,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.org.example.array_exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.org.example.patterns_exercise.factory.ex_1.TransportCompany" />
+      <module name="Workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.org.example.patterns_exercise.factory.ex_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransportCompany" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.main.java.org.example.oop_exercise.ex_3.Main" />
         <item itemvalue="Application.main.java.org.example.oop_exercise.ex_2.Main" />
         <item itemvalue="Application.SearcherMaxMinAvgValue" />
-        <item itemvalue="Application.MyArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699637476428</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first commit - add pattern example">
+      <created>1700045603129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700045603129</updated>
+    </task>
+    <task id="LOCAL-00010" summary="second commit - add pattern exercise one">
+      <created>1700047749177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700047749177</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +244,9 @@
     <MESSAGE value="first commit oop ex 1" />
     <MESSAGE value="first commit oop ex 2" />
     <MESSAGE value="first commit oop ex 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit oop ex 3" />
+    <MESSAGE value="first commit - add pattern example" />
+    <MESSAGE value="second commit - add pattern exercise one" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit - add pattern exercise one" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

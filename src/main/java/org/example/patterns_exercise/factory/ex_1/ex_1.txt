@@ -1,0 +1,9 @@
+Create an interface Transport with the method deliver().
+Implement several classes representing different types of transport (e.g., Truck, Ship, Airplane)
+that implement the Transport interface.
+Create an interface TransportFactory with the method createTransport().
+Implement several factories, each creating a specific type of transport
+(e.g., TruckFactory, ShipFactory, AirplaneFactory).
+Use these factories to create objects of different transport types in the client code.
+The goal of the exercise is to learn how to apply the Factory Method pattern to create
+objects of different types based on specific conditions.
