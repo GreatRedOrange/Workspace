@@ -1,4 +1,4 @@
-package main.java.org.example.array_exercise;
+package org.example.array_exercise;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ public class DeleteFromArr {
 
     }
 
-    private static int countsDoubletacts(int num, int[] arr) {
+    private static int countsDuplicate(int num, int[] arr) {
         int count = 0;
 
         for (int j : arr) {
@@ -25,7 +25,7 @@ public class DeleteFromArr {
 
     private static int[] removeFromArr(int num, int[] arr) {
 
-        int[] temp = new int[arr.length - countsDoubletacts(num, arr)];
+        int[] temp = new int[arr.length - countsDuplicate(num, arr)];
 
         for (int i = 0, k = 0; i < arr.length; i++) {
             if (arr[i] != num) {
