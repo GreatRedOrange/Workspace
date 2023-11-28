@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed760fec-dd7b-4963-9508-dec974d1ea91" name="Changes" comment="second commit - add pattern exercise one">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/StudentBehaviour.java" afterDir="false" />
+    <list default="true" id="ed760fec-dd7b-4963-9508-dec974d1ea91" name="Changes" comment="second commit - changed classes Student and StudentBehaviour. added classes CoffeeMachine, Milk, Sugar, Cinnamon Ex 4 oop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Behaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/CrazyStudentBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/coffee/Cinnamon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/coffee/CoffeeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/coffee/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/coffee/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/coffee/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/coffee/Topping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/StudentBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop_exercise/ex_4/NormalStudentBehaviour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +85,13 @@
       <recent name="W:\JavaWorkspace\Workspace\src\main\java\org\example\oop_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.org.example.patterns_exercise.factory.example.Program" />
-      <module name="Workspace" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop_exercise.ex_4.Main" />
+      <module name="Workshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.org.example.patterns_exercise.factory.example.*" />
+          <option name="PATTERN" value="org.example.oop_exercise.ex_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransportCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.org.example.patterns_exercise.factory.ex_1.TransportCompany" />
-      <module name="Workspace" />
+    <configuration name="org.example.oop_exercise.ex_4.coffee.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop_exercise.ex_4.coffee.Main" />
+      <module name="Workshop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.org.example.patterns_exercise.factory.ex_1.*" />
+          <option name="PATTERN" value="org.example.oop_exercise.ex_4.coffee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.oop_exercise.ex_4.coffee.Main" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.evenOrOdd" />
         <item itemvalue="JUnit.CalculatorTest.sum" />
-        <item itemvalue="Application.TransportCompany" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700047749177</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="first commit - add class Student and StudentBehaviour. Ex 4 oop">
+      <created>1701096541274</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701096541274</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +277,9 @@
     <MESSAGE value="first commit oop ex 3" />
     <MESSAGE value="first commit - add pattern example" />
     <MESSAGE value="second commit - add pattern exercise one" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit - add pattern exercise one" />
+    <MESSAGE value="first commit - add class Student and StudentBehaviour. Ex 4 oop" />
+    <MESSAGE value="second commit - changed classes Student and StudentBehaviour. added classes CoffeeMachine, Milk, Sugar, Cinnamon Ex 4 oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit - changed classes Student and StudentBehaviour. added classes CoffeeMachine, Milk, Sugar, Cinnamon Ex 4 oop" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
